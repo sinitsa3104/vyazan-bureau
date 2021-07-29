@@ -2,15 +2,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
   width: 850px;
-  margin: 1.5rem auto;
+  margin: 44px auto;
 }
 
 h1 {
-  font-size: 3.375rem;
+  font-size: 54px;
+  letter-spacing: 1px;
 }
 h3 {
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 32px;
+  line-height: 38px;
 }
 
 p,
@@ -22,19 +23,19 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.625rem;
+  margin-bottom: 26px;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 8rem;
+  margin-top: 128px;
 }
 
 .menu {
   display: flex;
   list-style: none;
-  gap: 2.375rem;
+  gap: 64px;
 }
 
 .menu_item {
@@ -46,7 +47,7 @@ footer {
 
 .menu_item.selected {
   text-decoration-line: underline;
-  text-underline-offset: 0.35rem;
+  text-underline-offset: 6px;
   text-decoration-thickness: 2px;
 }
 
@@ -64,28 +65,32 @@ section:first-of-type {
 
 .article_section {
   display: flex;
-  gap: 4.625rem;
-  margin: 4rem 0;
+  gap: 144px;
+  margin: 64px 0;
 }
 
 .col_text {
   flex: 3;
-  line-height: 1.5rem;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .col_text > p {
-  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .col_factoid {
-  flex: 1;
+  flex: 1.2;
   display: flex;
   flex-direction: column;
 }
 .source_link {
   text-decoration: none;
   color: #205493;
-  font-size: 0.75rem;
+  font-size: 12px;
 }
 
 .source_link:hover {
@@ -93,7 +98,7 @@ section:first-of-type {
 }
 
 .big_text {
-  font-size: 2.625rem;
+  font-size: 54px;
   color: #ee6a5f;
   font-style: normal;
 }
@@ -108,30 +113,46 @@ section:first-of-type {
 }
 
 .description {
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .images_wool .description {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 .large {
-  font-size: 1.375rem;
-  line-height: 1.875rem;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
 .pubmed {
   justify-content: flex-end;
-  margin-bottom: 1rem;
+  margin-bottom: 64px;
+  flex: 1;
 }
 
 .pubmed > a {
-  margin-left: 1.3rem;
+  margin-left: 20px;
+}
+.big_text2 {
+  font-size: 70px;
+  color: #ee6a5f;
+  font-style: normal;
+}
+
+.lanolin {
+  gap: 64px;
+  margin-bottom: 156px;
+}
+
+.lanolin > .col_factoid {
+  margin-top: 44px;
+  gap: 30px;
 }
